@@ -1,10 +1,15 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
+import NavLink from '../navigation/NavLink';
 
 const OneScreen = () => {
   return (
     <View style={styles.container}>
       <Text> OneScreen </Text>
+      <NavLink text='this link utilize "useNavigation" hook to navigate to Detail'
+        routeName='Detail' />
+
+
     </View>
   )
 }

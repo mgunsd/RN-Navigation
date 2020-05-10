@@ -1,10 +1,13 @@
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
+import NavLink from '../navigation/NavLink';
 
 const IntroScreen = () => {
   return (
     <View style={styles.container}>
-      <Text> IntroScreen </Text>
+      <Text> This is IntroScreen </Text>
+      <NavLink text='Go to Main Route'
+        routeName='Home' />
     </View>
   )
 }

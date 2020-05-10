@@ -9,8 +9,7 @@ const Stack = createStackNavigator();
 export default OneStack = () => (
   <Stack.Navigator>
     <Stack.Screen name='Home' component={OneScreen} />
-    <Stack.Screen name='Detail' component={OneDetailScreen}
-      options={({ route }) => ({ title: route.params.name })} />
+    <Stack.Screen name='Detail' component={OneDetailScreen} />
   </Stack.Navigator>
 );
 

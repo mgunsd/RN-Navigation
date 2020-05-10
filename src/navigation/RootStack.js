@@ -8,7 +8,7 @@ import IntroScreen from '../screens/IntroScreen';
 const Stack = createStackNavigator();
 
 export default RootStack = () => (
-  <Stack.Navigator initialRouteName='Home' headerMode='none'>
+  <Stack.Navigator initialRouteName='Intro' headerMode='none'>
     <Stack.Screen name='Home' component={DrawerMenu} />
     <Stack.Screen name='Intro' component={IntroScreen} />
   </Stack.Navigator>
