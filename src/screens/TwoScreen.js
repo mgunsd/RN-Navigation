@@ -36,7 +36,7 @@ const TwoScreen = () => {
         {/* Shows behind the mask, you can put anything here, such as an image */}
         <View style={{
           flex: 1, alignItems: "center",
-          justifyContent: "center", height: '100%', width: '100%', backgroundColor: 'red',
+          justifyContent: "center", height: '100%', width: '100%', backgroundColor: '#252a34',
         }}>
           <Text style={{ color: 'white' }}> 2222222222222222222222222222</Text>
           <Text style={{ color: 'white' }}> 2222222222222222222222222222</Text>

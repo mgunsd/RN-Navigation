@@ -11,7 +11,10 @@ const Tabs = createMaterialBottomTabNavigator();
 export default BottomTabs = () => (
   <Tabs.Navigator
     initialRouteName='One'
-    activeColor='white' >
+    activeColor='white'
+    inactiveColor="#636366"
+    barStyle={{ backgroundColor: '#252a34' }}
+  >
     <Tabs.Screen
       name='One'
       component={OneStack}
